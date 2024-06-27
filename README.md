@@ -1,14 +1,17 @@
-# Network Subnetting Tool - Version 1.0
+# Network Subnetting and Supernetting Tool
 
 ## Overview
 
-This project is a Java application built using NetBeans, designed to assist users in subnetting IP networks. The program features a graphical user interface (GUI) where users can specify the number of hosts for each subnet, and the program will determine the IP range for each subnet.
+This project is a Java application built using NetBeans, designed to assist users in subnetting and supernetting IP networks. The program features a graphical user interface (GUI) where users can specify the number of hosts for each subnet, and the program will determine the IP range for each subnet. Additionally, the application supports supernetting: users can provide two IP addresses, and the program will calculate and return a single IP address representing the supernet.
 
 ## Features
 
-- **Subnetting**:
+- **Subnetting**: 
   - Users can specify the number of hosts for each subnet.
   - The program calculates and displays the IP range for each subnet.
+- **Supernetting**:
+  - Users can input two IP addresses.
+  - The program calculates and displays the resulting supernet IP address.
 
 ## Requirements
 
@@ -21,15 +24,11 @@ This project is a Java application built using NetBeans, designed to assist user
    ```bash
    git clone https://github.com/yourusername/network-subnetting-tool.git
    ```
-2. **Checkout the Version 1.0 Branch**:
-   ```bash
-   git checkout v1.0
-   ```
-3. **Open the Project in NetBeans**:
+2. **Open the Project in NetBeans**:
    - Open NetBeans IDE.
    - Select `File > Open Project`.
    - Navigate to the cloned repository and select the project folder.
-4. **Build and Run**:
+3. **Build and Run**:
    - Click on the `Run` button in NetBeans to build and run the application.
 
 ## Usage
@@ -41,10 +40,16 @@ This project is a Java application built using NetBeans, designed to assist user
    - Click on the `Cook the networks` button.
    - The application will display the IP range for each subnet.
 
+2. **Supernetting**:
+   - Launch the application.
+   - Enter two IP addresses in the designated fields.
+   - Click on the `Cook the network` button.
+   - The application will display the resulting supernet IP address.
+
 ## Version
 
-- **Version 1.0**:
-  - Initial release with subnetting support.
+- **Current Version**: 1.1
+  - Added support for supernetting: users can provide two IP addresses to calculate a single supernet IP.
 
 ## Contributing
 
@@ -72,8 +77,8 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-For any questions or feedback, please contact me at ognjenvasic70@gmail.com.
+For any questions or feedback, please contact me at ognjenvasic70@gmail.com if needed.
 
 ---
 
-Thank you for using the Network Subnetting Tool!
+Thank you for using the Network Subnetting and Supernetting Tool!
