@@ -1,5 +1,10 @@
 # Network Subnetting and Supernetting Tool
 
+> This one started as curiosity, not homework. Written across the end of the first
+> semester and the start of the second in my fourth year, right after the subnetting part
+> of the networking course: I wanted to find out how much of that theory I could actually
+> turn into working code, and how efficient I could make the calculation.
+
 ## Overview
 
 This project is a Java application built using NetBeans, designed to assist users in subnetting and supernetting IP networks. The program features a graphical user interface (GUI) where users can specify the number of hosts for each subnet, and the program will determine the IP range for each subnet. Additionally, the application supports supernetting: users can provide two IP addresses, and the program will calculate and return a single IP address representing the supernet.
