@@ -4,6 +4,8 @@
 > semester and the start of the second in my fourth year, right after the subnetting part
 > of the networking course: I wanted to find out how much of that theory I could actually
 > turn into working code, and how efficient I could make the calculation.
+>
+> Kept as a learning archive, without active development or maintenance.
 
 ## Overview
 
